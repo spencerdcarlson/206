@@ -2,3 +2,15 @@ CIS 206: Discrete Mathematics II Projects
 
 This is a compilation of projects from Professor Geoffrey Draper's Discrete Mathematics class 
 offered at BYU-Hawaii Summer 2011
+
+Files & Folders: 
+  Projects and input files:
+    Separated into folders with the first project being 01, 02 ...
+  classes:
+    Notes in class names reflect dates (i.e. 4/27/12.rb etc)
+  doc:
+    Rdoc files
+  lib:
+    modules and classes that can be used again
+  
+  
