@@ -1,6 +1,8 @@
 # Module for parsing different types of files
 module Master
   
+  
+  
   # Class to parse a File
   class ParseFile
     ##
@@ -15,13 +17,29 @@ module Master
     #    Hash => Hash 
     #    Float => Array
     #
-    def initialize(input, returnType)
+    def initialize(returnType)
+      # If file name exists do nothing. 
+      #If it doesn't, check to see if ARGV[0] exists and assign it to fileName. 
+      #If ARGV[0] doesn't exist assign 'input1.txt' to fileName
+      fileName ||= ( ARGV[0] && ARGV[0] ) || 'input1.txt'
+
+      # create new file
+      file = File.new( fileName, 'r')
+      
       $type = returnType.to_s.upcase
-      file = File.new( input, 'r')
-      unless File.zero?(file)
+      
+      unless File.zero?(fileName)
           if $type == "HASH" then $hash = self.parseHash(file);  
           elsif $type == "FLOAT" then $ary = self.parseFloat(file) end               
       end
+
+      rescue Errno::ENOENT
+        puts "\nFile not found: #{$!}"
+        puts 'Please specify another file or type \'q\' to quit'
+        input = $stdin.gets.chomp
+        if input.casecmp('q') == 0; exit else fileName = input; retry end
+      ensure
+        file.close if file
     end
     
     def parseHash(file)

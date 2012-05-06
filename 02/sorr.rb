@@ -1,4 +1,4 @@
-# PROJECT: SECOND ORDER RECURRENCE RELATIONS
+# PROJECT: Second Order Recurrence Relations
 $LOAD_PATH << '../lib'
 require 'parseFile.rb'
 
@@ -39,30 +39,12 @@ class Sorr
   end #quadratic
 end #class Sorr
 
-
-
-
 begin
-  
-  # If file name exists do nothing. 
-  #If it doesn't, check to see if ARGV[0] exists and assign it to fileName. 
-  #If ARGV[0] doesn't exist assign 'input1.txt' to fileName
-  fileName ||= ( ARGV[0] && ARGV[0] ) || 'input1.txt'
-  
-  # create new file
-  file = File.new( fileName, 'r')
-  
-  parsed = Master::ParseFile.new(file, Hash)
+  parsed = Master::ParseFile.new(Hash)
   if parsed.getFile.instance_of?(Hash) then Sorr.new(parsed.getFile) end
-    
-  rescue Errno::ENOENT
-    puts "\nFile not found: #{$!}"
-    puts 'Please specify another file or type \'q\' to quit'
-    input = $stdin.gets.chomp
-    if input.casecmp('q') == 0; exit else fileName = input; retry end
-  ensure
-    file.close if file
 end
+
+
 
 
 
