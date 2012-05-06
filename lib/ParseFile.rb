@@ -16,11 +16,11 @@ module Master
     #    Float => Array
     #
     def initialize(input, returnType)
-      $type = returnType
+      $type = returnType.to_s.upcase
       file = File.new( input, 'r')
       unless File.zero?(file)
-          if $type.is_a?(Hash) then $hash = self.parseHash(file) 
-          elsif $type.is_a?(Float) then $ary = self.parseFloat(file) end               
+          if $type == "HASH" then $hash = self.parseHash(file);  
+          elsif $type == "FLOAT" then $ary = self.parseFloat(file) end               
       end
     end
     
@@ -40,8 +40,8 @@ module Master
     end
     
     def getFile
-      if $type.is_a?(Hash) then return $hash
-      elsif $type.is_a?(Float) then return $ary end
+      if $type == 'HASH' then return $hash
+      elsif $type == 'FLOAT' then return $ary end
     end
     
   end #class

@@ -3,24 +3,3 @@ S(2) 1
 c1 1
 c2 1
 
-## ANSWER
-# NOTE: Due to slight variations in computer configurations,
-# the students' answers might be *slightly* different than
-# this (like in the final few decimal places), but the
-# answers should still follow the Fibonacci sequence.
-
-# r1 = 1.618033988749895
-# r2 = -0.6180339887498949
-# p = 0.7236067977499789
-# q = 0.27639320225002106
-# S(n) = (0.7236067977499789)(1.618033988749895)^(n-1) + (0.27639320225002106)(-0.6180339887498949)^(n-1)
-# S(1) = 1.0
-# S(2) = 0.9999999999999999
-# S(3) = 2.0
-# S(4) = 3.0
-# S(5) = 5.0
-# S(6) = 8.000000000000002
-# S(7) = 13.000000000000004
-# S(8) = 21.000000000000004
-# S(9) = 34.000000000000014
-# S(10) = 55.00000000000002

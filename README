@@ -7,7 +7,7 @@ Files & Folders:
   Projects and input files:
     Separated into folders with the first project being 01, 02 ...
   classes:
-    Notes in class names reflect dates (i.e. 4/27/12.rb etc)
+    Notes in class. File names reflect dates (i.e. 4/27/12.rb etc)
   doc:
     Rdoc files
   lib:
