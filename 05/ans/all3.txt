@@ -1,0 +1,27 @@
+ciphertext: EJI UXGHI IWXCVH UXGHI
+key: 0 decodes to: EJI UXGHI IWXCVH UXGHI
+key: 1 decodes to: DIH TWFGH HVWBUG TWFGH
+key: 2 decodes to: CHG SVEFG GUVATF SVEFG
+key: 3 decodes to: BGF RUDEF FTUZSE RUDEF
+key: 4 decodes to: AFE QTCDE ESTYRD QTCDE
+key: 5 decodes to: ZED PSBCD DRSXQC PSBCD
+key: 6 decodes to: YDC ORABC CQRWPB ORABC
+key: 7 decodes to: XCB NQZAB BPQVOA NQZAB
+key: 8 decodes to: WBA MPYZA AOPUNZ MPYZA
+key: 9 decodes to: VAZ LOXYZ ZNOTMY LOXYZ
+key: 10 decodes to: UZY KNWXY YMNSLX KNWXY
+key: 11 decodes to: TYX JMVWX XLMRKW JMVWX
+key: 12 decodes to: SXW ILUVW WKLQJV ILUVW
+key: 13 decodes to: RWV HKTUV VJKPIU HKTUV
+key: 14 decodes to: QVU GJSTU UIJOHT GJSTU
+key: 15 decodes to: PUT FIRST THINGS FIRST
+key: 16 decodes to: OTS EHQRS SGHMFR EHQRS
+key: 17 decodes to: NSR DGPQR RFGLEQ DGPQR
+key: 18 decodes to: MRQ CFOPQ QEFKDP CFOPQ
+key: 19 decodes to: LQP BENOP PDEJCO BENOP
+key: 20 decodes to: KPO ADMNO OCDIBN ADMNO
+key: 21 decodes to: JON ZCLMN NBCHAM ZCLMN
+key: 22 decodes to: INM YBKLM MABGZL YBKLM
+key: 23 decodes to: HML XAJKL LZAFYK XAJKL
+key: 24 decodes to: GLK WZIJK KYZEXJ WZIJK
+key: 25 decodes to: FKJ VYHIJ JXYDWI VYHIJ

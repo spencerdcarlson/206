@@ -1,0 +1,27 @@
+ciphertext: MABGD PBG PBG
+key: 0 decodes to: MABGD PBG PBG
+key: 1 decodes to: LZAFC OAF OAF
+key: 2 decodes to: KYZEB NZE NZE
+key: 3 decodes to: JXYDA MYD MYD
+key: 4 decodes to: IWXCZ LXC LXC
+key: 5 decodes to: HVWBY KWB KWB
+key: 6 decodes to: GUVAX JVA JVA
+key: 7 decodes to: FTUZW IUZ IUZ
+key: 8 decodes to: ESTYV HTY HTY
+key: 9 decodes to: DRSXU GSX GSX
+key: 10 decodes to: CQRWT FRW FRW
+key: 11 decodes to: BPQVS EQV EQV
+key: 12 decodes to: AOPUR DPU DPU
+key: 13 decodes to: ZNOTQ COT COT
+key: 14 decodes to: YMNSP BNS BNS
+key: 15 decodes to: XLMRO AMR AMR
+key: 16 decodes to: WKLQN ZLQ ZLQ
+key: 17 decodes to: VJKPM YKP YKP
+key: 18 decodes to: UIJOL XJO XJO
+key: 19 decodes to: THINK WIN WIN
+key: 20 decodes to: SGHMJ VHM VHM
+key: 21 decodes to: RFGLI UGL UGL
+key: 22 decodes to: QEFKH TFK TFK
+key: 23 decodes to: PDEJG SEJ SEJ
+key: 24 decodes to: OCDIF RDI RDI
+key: 25 decodes to: NBCHE QCH QCH

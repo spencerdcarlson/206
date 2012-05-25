@@ -1,0 +1,27 @@
+ciphertext: KNPRW FRCQ CQN NWM RW VRWM
+key: 0 decodes to: KNPRW FRCQ CQN NWM RW VRWM
+key: 1 decodes to: JMOQV EQBP BPM MVL QV UQVL
+key: 2 decodes to: ILNPU DPAO AOL LUK PU TPUK
+key: 3 decodes to: HKMOT COZN ZNK KTJ OT SOTJ
+key: 4 decodes to: GJLNS BNYM YMJ JSI NS RNSI
+key: 5 decodes to: FIKMR AMXL XLI IRH MR QMRH
+key: 6 decodes to: EHJLQ ZLWK WKH HQG LQ PLQG
+key: 7 decodes to: DGIKP YKVJ VJG GPF KP OKPF
+key: 8 decodes to: CFHJO XJUI UIF FOE JO NJOE
+key: 9 decodes to: BEGIN WITH THE END IN MIND
+key: 10 decodes to: ADFHM VHSG SGD DMC HM LHMC
+key: 11 decodes to: ZCEGL UGRF RFC CLB GL KGLB
+key: 12 decodes to: YBDFK TFQE QEB BKA FK JFKA
+key: 13 decodes to: XACEJ SEPD PDA AJZ EJ IEJZ
+key: 14 decodes to: WZBDI RDOC OCZ ZIY DI HDIY
+key: 15 decodes to: VYACH QCNB NBY YHX CH GCHX
+key: 16 decodes to: UXZBG PBMA MAX XGW BG FBGW
+key: 17 decodes to: TWYAF OALZ LZW WFV AF EAFV
+key: 18 decodes to: SVXZE NZKY KYV VEU ZE DZEU
+key: 19 decodes to: RUWYD MYJX JXU UDT YD CYDT
+key: 20 decodes to: QTVXC LXIW IWT TCS XC BXCS
+key: 21 decodes to: PSUWB KWHV HVS SBR WB AWBR
+key: 22 decodes to: ORTVA JVGU GUR RAQ VA ZVAQ
+key: 23 decodes to: NQSUZ IUFT FTQ QZP UZ YUZP
+key: 24 decodes to: MPRTY HTES ESP PYO TY XTYO
+key: 25 decodes to: LOQSX GSDR DRO OXN SX WSXN

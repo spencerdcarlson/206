@@ -1,0 +1,4 @@
+DOMAIN: { cow, chicken, sheep, goat }
+CODOMAIN: { milk, eggs, wool, lanolin }
+RELATION: { (sheep,lanolin), (cow,milk), (chicken,eggs), (goat,milk), (sheep,wool) }
+This is *not* a function.

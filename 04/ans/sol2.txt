@@ -1,0 +1,7 @@
+DOMAIN: { 18, 52, 238, 87, 166, 154 }
+CODOMAIN: { 12, 34, ee, 57, a6, 9a }
+RELATION: { (18,12), (52,34), (238,ee), (87,57), (166,a6), (154,9a) }
+This is a function.
+It is onto.
+It is one-to-one.
+It is a bijection.

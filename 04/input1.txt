@@ -1,0 +1,3 @@
+cow chicken sheep goat
+milk eggs wool lanolin
+sheep lanolin cow milk chicken eggs goat milk sheep wool

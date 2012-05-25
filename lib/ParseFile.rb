@@ -1,5 +1,6 @@
 # Module for parsing different types of files
 module Master
+
   
   
   
@@ -27,10 +28,11 @@ module Master
       file = File.new( fileName, 'r')
       
       $type = returnType.to_s.upcase
-      
+            
       unless File.zero?(fileName)
           if $type == "HASH" then $hash = self.parseHash(file);  
-          elsif $type == "FLOAT" then $ary = self.parseFloat(file) end               
+          elsif $type == "FLOAT" then $ary = self.parseFloat(file) 
+          elsif $type == "LINES" then @lines = self.parseLines(file) end                
       end
 
       rescue Errno::ENOENT
@@ -57,9 +59,19 @@ module Master
       return nums
     end
     
+    def parseLines(file)
+      container = Array.new
+      while (line = file.gets)
+        items = line.split(" ")
+        container.push(items)
+      end
+      return container
+    end 
+    
     def getFile
       if $type == 'HASH' then return $hash
-      elsif $type == 'FLOAT' then return $ary end
+      elsif $type == 'FLOAT' then return $ary 
+      elsif $type == 'LINES' then return @lines end
     end
     
   end #class

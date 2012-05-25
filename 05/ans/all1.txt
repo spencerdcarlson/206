@@ -1,0 +1,27 @@
+ciphertext: EH SURDFWLYH
+key: 0 decodes to: EH SURDFWLYH
+key: 1 decodes to: DG RTQCEVKXG
+key: 2 decodes to: CF QSPBDUJWF
+key: 3 decodes to: BE PROACTIVE
+key: 4 decodes to: AD OQNZBSHUD
+key: 5 decodes to: ZC NPMYARGTC
+key: 6 decodes to: YB MOLXZQFSB
+key: 7 decodes to: XA LNKWYPERA
+key: 8 decodes to: WZ KMJVXODQZ
+key: 9 decodes to: VY JLIUWNCPY
+key: 10 decodes to: UX IKHTVMBOX
+key: 11 decodes to: TW HJGSULANW
+key: 12 decodes to: SV GIFRTKZMV
+key: 13 decodes to: RU FHEQSJYLU
+key: 14 decodes to: QT EGDPRIXKT
+key: 15 decodes to: PS DFCOQHWJS
+key: 16 decodes to: OR CEBNPGVIR
+key: 17 decodes to: NQ BDAMOFUHQ
+key: 18 decodes to: MP ACZLNETGP
+key: 19 decodes to: LO ZBYKMDSFO
+key: 20 decodes to: KN YAXJLCREN
+key: 21 decodes to: JM XZWIKBQDM
+key: 22 decodes to: IL WYVHJAPCL
+key: 23 decodes to: HK VXUGIZOBK
+key: 24 decodes to: GJ UWTFHYNAJ
+key: 25 decodes to: FI TVSEGXMZI
