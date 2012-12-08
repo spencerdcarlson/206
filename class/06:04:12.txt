@@ -1,0 +1,23 @@
+Disjunctive Normal Form
+  sum of products
+  for every row with output 1 multiply the values together, finally sum each new output together
+  example:
+  A B | out
+  0 0 | 0
+  0 1 | 1
+  1 0 | 0
+  1 1 | 1
+  
+  DJNF = ( AB' ) + ( AB )
+  
+Conjunctive Normal From
+  Product of Sums
+  for every row with output 0 negate the values and sum them, finally multiply each new output
+  example: 
+  A B | out
+  0 0 | 0
+  0 1 | 1
+  1 0 | 0
+  1 1 | 1
+  
+  CNF = ( A' + B' )*( A' + B )

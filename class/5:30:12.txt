@@ -1,0 +1,9 @@
+Articulation Point
+
+1.) Do a Depth First Traversal of Paths arcs traveled 
+2.) if you hit a visited node then previous node's Back number = already visited node's Tree Number
+  example: if node.visited == true then prev.bn = current.tn end 
+3.) if we're back tracking:
+  if the current node's  Back Number > previous nod's back number 
+  then current's node Back Number set to Back Number from previous node otherwise it is the articulation point
+  example: if current.bn > prev.bn then current.bn = prev.bn else current.articulation_point = true end

@@ -1,0 +1,19 @@
+Node Neighbors:
+D: B E 
+E: B D H I 
+F: C J 
+G: C 
+A: B C 
+B: A C D E 
+C: A B F G 
+H: E K 
+I: E K 
+J: F 
+K: H I 
+
+Depth-First Search:
+J F C A B D E H K I G 
+
+Breadth-First Search:
+J F C A B G D E H I K 
+

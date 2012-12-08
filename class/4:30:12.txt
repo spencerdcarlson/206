@@ -1,5 +1,4 @@
-=begin
-  Recursion shortcuts
+Recursion shortcuts
   
   must meet the following requirements:
       Linear
@@ -15,4 +14,3 @@
           S(2) = p(r1) + q(r2)
     4.) Plug it all into the solution formula
           S(n) = p(r1)^(n-1) + q(r2)^(n-1)
-=end

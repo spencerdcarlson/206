@@ -22,7 +22,6 @@ end
 
 class LinkedList
 
-  
   include Enumerable
 
   	def initialize(data = nil)
@@ -47,7 +46,7 @@ class LinkedList
       	node.prev = nil
     		node.next = @head
 
-    		@head = node
+    		@head.prev.next = node
     		@size += 1
     		nil
   		end
@@ -70,14 +69,22 @@ class LinkedList
     
     # Return the last element
     def last
-    	raise "Empty LinkedList" if @size <= 0
-  		return @last.prev.data
+    	begin
+    	  raise ArgumentError, "Empty LinkedList" if @size <= 0
+  	    return @last.prev.data
+  	    rescue
+  	      puts "Empty"   		  
+		  end
   	end
 
   	# Return the first element
   	def head
-  		raise "Empty LinkedList" if @size <= 0
-  		return @head.data
+  		begin
+  		  raise "Empty LinkedList" if @size <= 0
+  		  return @head.data
+		  rescue 
+		    puts "Empty"
+		  end
   	end
   	
   	# Get size
@@ -100,51 +107,64 @@ class LinkedList
   		 raise "Index out of Bounds" if ind > item
     end
   	
-  	# Remove last element *** FIX ME  ****
+  	# Remove last element *
   	def pop
-      #raise "Empty LinkedList" if @size <= 0
-      puts "Empty" if @size <= 0
-    	if @size > 0 
-    	  node = @last.prev
-  		  node.prev.next = @last
-  		  @last.prev = node.prev
-  		  @size -= 1
-  		  yield node.data
-  		  return node.data
-		  end
+      begin
+        raise "Empty LinkedList" if @size <= 0
+        if @size == 1 then yield @head.data; @head = nil; @last = nil  end
+        if @size > 1 
+      	  yield @last.prev.data
+      	  node = @last.prev.prev
+      	  node.next = @last.next
+      	  @last.prev = node
+    		  @size -= 1
+  		  end
+		  rescue
+		    puts "Empty"
+  	  end
   	end
   	
-  	# Remove first element *** FIX ME  ****
+  	# Remove first element *
   	def shift
-    	#raise "Empty LinkedList"if @size <= 0
-    	puts "Empty" if @size <= 0
-  	  if @size > 0
-    	  node = @head.next
-  		  node.next.prev = @head
-  		  @head.next = node.next
-  		  @size -= 1
-  		  yield node.data
-  		  return node.data
-		  end
+    	begin
+    	  raise "Empty LinkedList"if @size <= 0
+    	  if @size > 0
+      	  yield @head.data
+      	  node = @head.next
+      	  node.prev = nil
+    		  @head = node
+    		  @size -= 1
+  		  end
+  	  rescue 
+  	    puts "Empty" 
+  	  end
   	end
 
     # Loop *
     def each
-  	  node = @head
-  		while node != @last
-  			yield node.data
-  			node = node.next
-  		end
+  	  begin
+  	    node = @head
+    		while node != @last.next
+    			yield node.data unless node.data == nil
+    			node = node.next
+    		end
+  		rescue
+  		  puts "LOOPING ERROR"
+		  end
   	end
 
   	#Loop backwards 
   	def reverse_each
   		node = @last
   		while node != nil
-  		  yield node.data
+  		  yield node.data unless node.data == nil
   		  node = node.prev
 		  end
 	  end
+	  
+	  def self.handle (msg)
+      puts msg
+    end
 
 end #LinkedList 
 

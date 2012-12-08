@@ -1,0 +1,15 @@
+A B C D E F G H I J K
+H
+A B
+A C
+B C
+B D
+B E
+C F
+C G
+D E
+E H
+E I
+F J
+H K
+I K

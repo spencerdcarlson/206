@@ -1,0 +1,13 @@
+Node Neighbors:
+Bumblebee: Aardvark 
+Aardvark: Bumblebee Dolphin 
+Cat: Dolphin Elk 
+Dolphin: Aardvark Cat 
+Elk: Cat 
+
+Depth-First Search:
+Bumblebee Aardvark Dolphin Cat Elk 
+
+Breadth-First Search:
+Bumblebee Aardvark Dolphin Cat Elk 
+

@@ -1,4 +1,4 @@
-require './LinkedList.rb'
+require '../class/LinkedList.rb'
 
 begin
   @ll = LinkedList.new
@@ -10,14 +10,15 @@ begin
     case cmd[0]
     when "PUSH"
       @ll.push cmd[1]
+      #puts "pushed #{cmd[1]}"
     when "POP"
-      @ll.pop {|n| puts n } 
+      puts @ll.pop 
     when "PRINT"
       @ll.each { |n| puts n }
     when "ENQUEUE"
       @ll.push cmd[1]
     when "DEQUEUE"
-      @ll.shift { |n| puts n }
+      puts @ll.shift
     else
       @ll = LinkedList.new
     end
